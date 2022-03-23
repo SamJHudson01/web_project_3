@@ -1,21 +1,28 @@
 .photo-grid {
-    
+    width: 100%;
+    margin-right: 45px;
 }
 
 .photo-grid__list {
+    padding: 0;
     list-style: none;
     display: grid;
     /* ASK FOR EXPLANATION OF BELOW */
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 16px;
+    margin: 0;
+    justify-content: center;
+    object-fit: cover;
+    padding: 0 3.5% 0 3.5%;
 }
 
 .photo-grid__list_item {
-
+    margin: 0;
+    max-width: 100%;
 }
 
 .photo-grid__image {
-
+    width: 100%  
 }
 
 
