@@ -1,13 +1,13 @@
 .photo-grid {
     width: 100%;
     margin-right: 45px;
+    margin-top: 118px;
 }
 
 .photo-grid__list {
     padding: 0;
     list-style: none;
     display: grid;
-    /* ASK FOR EXPLANATION OF BELOW */
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 16px;
     margin: 0;
