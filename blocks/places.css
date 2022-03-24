@@ -1,0 +1,7 @@
+.places {
+    display: block;
+    margin: 0 auto;
+    width: 987px;
+    height: 1000px;
+    border: 1px rgb(247, 238, 238) solid;
+}
