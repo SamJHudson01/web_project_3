@@ -1,7 +1,6 @@
 .places {
     display: block;
-    margin: 0 auto;
+    margin: 92px auto auto auto;
     width: 987px;
     height: 1000px;
-    border: 1px rgb(247, 238, 238) solid;
 }
