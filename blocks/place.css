@@ -58,8 +58,15 @@
 
 .place__paragraph {
     margin: 0;
+    font-size: 18px;
+    line-height: 1.63;
+    font-family: 'Inter';
+    font-weight: 400;
 }
 
+.place__paragraph-2 {
+    margin-top: 25px;
+}
 
 
 .place__button {
@@ -73,4 +80,28 @@
 .place__button-link {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 1120px) {
+
+    .place {
+        column-gap: 28px;
+    }
+
+    .place__title {
+        font-size: 42px;
+        line-height: 1.1;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .place__image {
+        max-width: 340px;
+        max-height: 340px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+    }
+    
 }
