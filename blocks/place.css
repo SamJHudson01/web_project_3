@@ -1,0 +1,76 @@
+.place {
+    display: grid;
+    column-gap: 40px;
+    row-gap: 48px;
+    grid-template-areas: 
+    "title artist"
+    "image description"
+    "button description";
+    
+}
+
+.place__title {
+    grid-area: title;
+    margin: auto;
+    font-size: 72px;
+    line-height: 1.06;
+    font-family: 'Inter';
+    font-weight: 900;
+    
+}
+
+
+.place__artist {
+    grid-area: artist;
+    margin-top: auto;
+}
+
+.place__artist-title {
+    font-size: 12px;
+    line-height: 1.21;
+    font-family: 'Inter';
+    font-weight: 400;
+    color:#AAAAAA;
+    margin: 0;
+    
+}
+
+.place__artist-name {
+    font-size: 18px;
+    line-height: 1.22;
+    margin-top: 8px;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.place__image {
+    grid-area: image;
+    max-height: 460px;
+    max-width: 460px;
+    
+}
+
+.place__description {
+    grid-area: description;
+    margin: 0;
+}
+
+.place__paragraph {
+    margin: 0;
+}
+
+
+
+.place__button {
+    grid-area: button;
+    max-width: 248px;
+    max-height: 48px;
+    background-color: #0278FE;
+    padding: 13px 20px;
+}
+
+.place__button-link {
+    text-decoration: none;
+    color: white;
+}

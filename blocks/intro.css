@@ -1,7 +1,16 @@
 .intro {
-    width: 785px;
-    margin-left: 148px;
+    max-width: 785px;
+    padding-left: 11.5%;
 }
+
+@media screen and (max-width: 1000px) {
+    .intro {
+        padding-left: 0;
+        margin: 0 auto;
+    }
+} 
+    
+
 
 .intro__heading {
     margin: 92px 0 0 0;
@@ -12,7 +21,7 @@
 }
 
 .intro__quote {
-    width: 720px;
+    max-width: 720px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 24px;
@@ -21,7 +30,7 @@
 
 }
 .intro__attribution {
-    width: 720px;
+    max-width: 720px;
     display: block;
     text-align: right;
     font-family: 'Inter';
@@ -32,10 +41,17 @@
 }
 
 .intro__paragraph {
-    width: 720px;
+    max-width: 720px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.625;
     margin: 32px 0 0 0;
 }
+
+@media screen and (max-width: 1000px) {
+    .intro {
+        padding-left: 0;
+        margin: 0 3.125% 0 3.125%;
+    }
+} 
