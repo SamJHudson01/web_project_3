@@ -98,9 +98,12 @@
         text-align: left;
         margin-left: 0;
     }
-
     .place__paragraph {
         font-size: 16px;
+    }
+
+    .place__button {
+        width: 288px;
     }
     
 }

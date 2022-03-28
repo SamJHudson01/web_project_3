@@ -1,0 +1,46 @@
+.contact {
+    margin: 92px auto auto auto;
+    max-width: 1184px;
+    background-image: url("../images/field_of_wheat.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20.5% 22.3%;
+}
+
+.contact__info {
+    max-width: 656px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact__title {
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    
+}
+
+.contact__address {
+    text-align: center;
+    font-style: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    margin: 0;
+}
+
+.contact__buy-button {
+    display: block;
+    margin: 32px auto auto;
+    background-color: #0278FE;
+    width: 137px;
+    height: 48px;
+}
+
+.contact__buy-button-link {
+    color: white;
+    text-decoration: none;
+}
