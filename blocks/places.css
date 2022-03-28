@@ -1,4 +1,7 @@
 .places {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
     margin: 92px auto auto auto;
     max-width: 984px;
 }
@@ -7,6 +10,7 @@
     .places {
         margin: 88px auto; 
         max-width: 720px;
+        gap: 72px;
     }
     
 }
