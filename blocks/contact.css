@@ -1,13 +1,34 @@
 .contact {
+    position: relative;
     margin: 92px auto auto auto;
     max-width: 1184px;
     background-image: url("../images/field_of_wheat.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* padding: 20.5% 22.3%; */
+}
+
+.contact__overlay {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+    background-color: #2A2C2F;
+    ;
+}
+
+.contact__overlay:hover {
+    opacity: 80%;
+}
+
+.contact__content {
     padding: 20.5% 22.3%;
 }
 
 .contact__info {
+    position: relative;
+    z-index: 1;
     max-width: 656px;
     display: block;
     margin: 0 auto;
@@ -20,7 +41,6 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 1.06;
-    
 }
 
 .contact__address {
@@ -43,4 +63,14 @@
 .contact__buy-button-link {
     color: white;
     text-decoration: none;
+}
+
+.contact__buy-button:hover {
+    background-color: #0063D2;
+    ;
+}
+
+.contact__content:hover~.contact__overlay {
+    opacity: 80%;
+    ;
 }
