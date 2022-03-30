@@ -67,17 +67,16 @@
     grid-area: button;
     max-width: 248px;
     max-height: 48px;
+    line-height: 48px;
+    text-align: center;
     background-color: #0278FE;
     padding: 13px 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .place__button:hover {
     background-color: #0063D2;
-}
-
-.place__button-link {
-    text-decoration: none;
-    color: white;
 }
 
 @media screen and (max-width: 1000px) {

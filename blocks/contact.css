@@ -14,7 +14,6 @@
     height: 100%;
     opacity: 30%;
     background-color: #2A2C2F;
-    ;
 }
 
 .contact__overlay:hover {
@@ -57,21 +56,18 @@
     background-color: #0278FE;
     width: 137px;
     height: 48px;
-}
-
-.contact__buy-button-link {
+    line-height: 48px;
+    text-align: center;
     color: white;
     text-decoration: none;
 }
 
 .contact__buy-button:hover {
     background-color: #0063D2;
-    ;
 }
 
 .contact__content:hover~.contact__overlay {
     opacity: 80%;
-    ;
 }
 
 @media screen and (max-width: 635px) {
