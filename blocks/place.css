@@ -98,3 +98,26 @@
         width: 288px;
     }
 }
+
+@media screen and (max-width: 635px) {
+    .place {
+        grid-template-areas: "title" "artist" "image" "description" "button";
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .place__title {
+        padding-left: 16px;
+    }
+    .place__artist-title {
+        padding-left: 16px;
+    }
+    .place__artist-name {
+        padding-left: 16px;
+    }
+    .place__paragraph {
+        padding: 0 16px 0 16px;
+    }
+    .place__button {
+        margin: 0 auto;
+    }
+}
