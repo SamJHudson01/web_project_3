@@ -20,22 +20,20 @@
     opacity: 80%;
 }
 
-.contact__content {
-    padding: 20.5% 22.3%;
-}
-
 .contact__info {
     position: relative;
     z-index: 1;
     max-width: 656px;
     display: block;
     margin: 0 auto;
+    padding-top: 243px;
+    padding-bottom: 243px;
 }
 
 .contact__title {
     text-align: center;
     margin: 0 0 32px 0;
-    font-family: "Inter";
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 900;
     font-size: 72px;
     line-height: 1.06;
@@ -43,7 +41,7 @@
 
 .contact__address {
     text-align: center;
-    font-style: "Inter";
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
@@ -53,7 +51,12 @@
 .contact__buy-button {
     display: block;
     margin: 32px auto auto;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.21;
     background-color: #0278FE;
+    border-radius: 4px;
     width: 137px;
     height: 48px;
     line-height: 48px;
@@ -70,12 +73,31 @@
     opacity: 80%;
 }
 
+@media screen and (max-width: 1000px) {
+    .contact__info {
+        padding-top: 246px;
+        padding-bottom: 246px;
+    }
+}
+
 @media screen and (max-width: 635px) {
-    .contact__content {
-        padding: 45px 0;
+    .contact {
+        margin-top: 64px;
+    }
+    .contact__info {
+        padding-top: 46px;
+        padding-bottom: 45px;
     }
     .contact__title {
         font-size: 32px;
         line-height: 1.1;
+    }
+    .contact__address {
+        font-size: 18px;
+        line-height: 1.22;
+        margin-top: 16px;
+    }
+    .contact__buy-button {
+        margin-top: 16px;
     }
 }

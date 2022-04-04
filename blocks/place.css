@@ -10,11 +10,12 @@
 
 .place__title {
     grid-area: title;
-    margin: auto;
+    margin: 0 auto;
     font-size: 72px;
     line-height: 1.06;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif, Arial, sans-serif;
     font-weight: 900;
+    align-self: end;
 }
 
 .place__artist {
@@ -25,17 +26,18 @@
 .place__artist-title {
     font-size: 12px;
     line-height: 1.21;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     color: #AAAAAA;
     margin: 0;
+    letter-spacing: 1.44px;
 }
 
 .place__artist-name {
     font-size: 18px;
     line-height: 1.22;
     margin-top: 8px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     margin-bottom: 0;
 }
@@ -55,24 +57,31 @@
     margin: 0;
     font-size: 18px;
     line-height: 1.63;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
 }
 
-.place__paragraph-2 {
+.place__paragraph:nth-child(2) {
+    margin-top: 25px;
+}
+
+.place__paragraph:nth-child(3) {
     margin-top: 25px;
 }
 
 .place__button {
     grid-area: button;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
     max-width: 248px;
     max-height: 48px;
     line-height: 48px;
     text-align: center;
     background-color: #0278FE;
-    padding: 13px 20px;
     text-decoration: none;
     color: white;
+    border-radius: 4px;
 }
 
 .place__button:hover {
@@ -85,6 +94,7 @@
         grid-template-columns: 340px 1fr;
     }
     .place__title {
+        display: block;
         font-size: 42px;
         line-height: 1.1;
         text-align: left;
@@ -106,6 +116,8 @@
     }
     .place__title {
         padding-left: 16px;
+        font-size: 32px;
+        line-height: 1.09;
     }
     .place__artist-title {
         padding-left: 16px;
@@ -118,5 +130,6 @@
     }
     .place__button {
         margin: 0 auto;
+        width: 288px;
     }
 }

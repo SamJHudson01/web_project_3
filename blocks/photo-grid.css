@@ -23,3 +23,16 @@
 .photo-grid__image {
     width: 100%;
 }
+
+@media screen and (max-width: 1000px) {
+    .photo-grid {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .photo-grid {
+        margin: 90px auto 0;
+        max-width: 288px;
+    }
+}
