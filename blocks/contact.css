@@ -46,7 +46,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
-    margin-top: 0;
+    margin: 0;
 }
 
 .contact__buy-button {
@@ -84,7 +84,7 @@
 @media screen and (max-width: 635px) {
     .contact {
         margin-top: 64px;
-        max-height: 254px;
+        min-height: 254px;
     }
     .contact__info {
         padding-top: 46px;

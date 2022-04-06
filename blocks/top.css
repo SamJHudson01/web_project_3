@@ -30,9 +30,18 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .top__image {
+    .top__title {
         max-width: 720px;
+    }
+    .top__image {
+        max-width: 768px;
         margin-top: 36px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .top__image {
+        max-width: 600px;
     }
 }
 
